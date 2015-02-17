@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.centered {
+  	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	/* bring your own prefixes */
+  	transform: translate(-50%, -50%);
+	opacity: 0.5;
+}
+
+.centered-circle {
+  	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	/* bring your own prefixes */
+  	transform: translate(-50%, -50%);
+}
+
+#circle {
+	border: 3px solid purple;
+	border-radius: 50%;	
+	padding: 3%;
+	background-color: purple;
+}
+
+#click_me {
+	color: white;	
+}

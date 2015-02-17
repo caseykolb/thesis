@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+canvas { 
+	display: block;
+	z-index: 100;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;	
+	height:100%;
+    border:none
+}
+
+table {
+	border-collapse: collapse;
+	table-layout: fixed;
+	width: 100%;
+	position: absolute;
+	height: 100%;
+}

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+body { 
+	width:100%; 
+	height:100%; 
+	background-color: #F2F2F2;  
+	margin: 0;
+	padding: 0; 
+	overflow: hidden;
+}
+
+#tween-canvas {
+	z-index: 50;	
+	position: fixed;
+}
+
+.centered {
+  	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	/* bring your own prefixes */
+  	transform: translate(-50%, -50%);
+}
+
+body { color:#FFF; height:600px; width:99%; height:95%; color:#FFF; }
+.stars {
+        z-index: 0; position: absolute; /* width: 420em; height: 70em; */
+       /* background-image: url(../img/stars.png ); background-repeat: repeat-x,repeat-x repeat-y;*/
+        transform:translate3D(0em, 0em, 0); animation: stars 21s ease; transform-style: preserve-3d;
+}

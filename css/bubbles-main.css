@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	background: url(../img/sky-background.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}	
+
+#bubble-container img {
+	width: 100px;
+	height: 100px;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+

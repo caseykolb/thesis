@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: #F2F2F2;   
+}
+
+table {
+	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	/* bring your own prefixes */
+	text-align:center;
+  	transform: translate(-50%, -50%);
+	width: 100%;	
+	height: 200px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+button {
+	z-index: 100;
+	background:none;
+  	border:none;	
+	font-size: 40px;
+	opacity: 0.2;
+}
+
+button:hover {
+	-webkit-transition: all 1s ease-in-out;
+  	-moz-transition: all 1s ease-in-out;
+  	-o-transition: all 1s ease-in-out;
+  	transition: all 1s ease-in-out;
+	opacity: 1.0;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+td div {
+	style: inline-block;	
+}

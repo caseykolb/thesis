@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body { 
+	width:100%; 
+	height:100%; 
+	background-color: #F2F2F2;  
+	margin: 0;
+	padding: 0; 
+	overflow: hidden;
+    -webkit-transition: background 5s ;
+    -moz-transition: background 5s ;
+    -ms-transition: background 5s ;
+    -o-transition: background 5s ;
+    transition: background 5s ;
+}
+
+
+#draw-shapes {
+	z-index: 100;	
+}
+
+#tween-canvas {
+	z-index: 50;	
+	position: fixed;
+}
+
+.centered {
+  	position: fixed;
+  	top: 50%;
+  	left: 50%;
+  	/* bring your own prefixes */
+  	transform: translate(-50%, -50%);
+}
